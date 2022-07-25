@@ -2,11 +2,11 @@
 
 ![Intro](Images/Screenshot%20from%202022-07-22%2013-32-41.png)
 
-## Business Understanding
+# Business Understanding
 
 According to sports betting market tracker PlayUSA, roughly $12 billion will be spent gambling on pro football this NFL season. Just over 45 million fans are expected to place wagers, the majority of which will lose money. We want to help give local degenerates a leg up against the casinos by creating a model that will predict the winner of NFL games given information on odds, location, weather, and rank. Using this model, we hope to be able to not only predict outcomes, but also identify the key variable (gameday conditions) most impactful in producing said outcome.
 
-## Data Understanding
+# Data Understanding
 
 ![threeanimals](Images/aarondonald.jpeg)
 
@@ -18,7 +18,7 @@ Then, we needed to establish a baseline of team's strength year to year to educa
 
 Finally, our target column was a boolean answer to 'did the favorite win,' so in order for our model to actually work, we had to convert all the information in terms of the favorite. 
 
-## Methods
+# Methods
 
 ![tackletheproblem](Images/derrick-henry-josh-norman.jpg)
 
@@ -30,22 +30,35 @@ We still needed to tune the Decision Tree to improve our model's score. We first
 
 We calculated the median spread of the last 50 games, then simualted a bettor placing money on the favorite of each game versus placing money on who our model picked to win each matchup. Our model would occasionally pick underdogs to win correctly; these instances make more money for bettors than if they correctly placed money on the favorite to win.
 
-## Results
+# Results
 
 ![Results](Images/Screenshot%20from%202022-07-25%2015-21-23.png)
 
 This simulation showed that if a bettor placed $100 on each of the last 50 games using our model's predicted winner, they would make over $400, whereas if they picked the facorite each instance, they would lose over $100. Therefore our model does in fact make bettors money, but it takes a lot of initial capital with minimal return ($5000 to win $400). 
 
-## Recommendations
+# Recommendations
 
 ![Touchdown](Images/touchdown.webp)
 
 Our model shows that it will make gamblers money, but we want our service to be of value to everyday local degenerates, most of whom do not have a lump sum of $5000 to risk. To do this, we want to improve our model by including additional data. If we had information on players (injuries, rank, significance, matchups) or coaches (rank, scheme, supporting staff) our scores might be better and more reliable. We also think it would be interesting to determine the impact of playoff, divisional, or end of season games which may be harder to predict. It also would be valuable to create a function that would be able to identify and use odds for specific games, not just the median average. Home field advantage is an additional important factor, so we also could calculate which teams have the most hostile atmosphere for visitors and provide a ranking to influence the model.
 
-## References
+# References
 
 ### Presentation
 https://www.canva.com/design/DAFG_Zv3PNQ/B18ds6RmVhU1jXSigwbcEA/edit?utm_content=DAFG_Zv3PNQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ### Data
 https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data
 https://www.teamrankings.com/nfl/ranking/overall-power-ranking-by-team?date=2022-07-25
+
+# Repository Structure
+
+```
+├── Tom                                               <- Rough Working Notebook for Tom
+├── Cooper                                            <- Rough Working Notebook for Cooper, data preperation
+├── Images                                            <- Images used in README.md 
+├── betting data                                      <- CSV files of data
+├── .gitignore                                        <- Standard python gitignore file
+├── Phase 3 Project Presentation NFL Gambling Data.pdf<- Final Slides Presentation
+├── Final NoteBook.ipynb                              <- Final Jupyter Notebook
+└── README.md                                         <- You Are Here   X
+```
