@@ -45,9 +45,13 @@ Our model shows that it will make gamblers money, but we want our service to be 
 # References
 
 ### Presentation
+
 https://www.canva.com/design/DAFG_Zv3PNQ/B18ds6RmVhU1jXSigwbcEA/edit?utm_content=DAFG_Zv3PNQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ### Data
+
 https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data
+
 https://www.teamrankings.com/nfl/ranking/overall-power-ranking-by-team?date=2022-07-25
 
 # Repository Structure
