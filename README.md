@@ -1,6 +1,6 @@
 # NFL-Gambling-Project
 
-![Intro](../NFL-Gambling-Project/Images/Screenshot%20from%202022-07-22%2013-32-41.png)
+![Intro](Images/Screenshot%20from%202022-07-22%2013-32-41.png)
 
 ## Business Understanding
 
